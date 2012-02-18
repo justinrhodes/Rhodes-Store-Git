@@ -1,5 +1,5 @@
 <?
-$con = mysql_connect("mysql-shared-02.phpfog.com","Custom App-28464","18hjI08O");
+$con = mysql_connect("db01-share","Custom App-28464","18hjI08O");
 if (!$con)
 	{
 	die('Could not connect: ' . mysql_error());
